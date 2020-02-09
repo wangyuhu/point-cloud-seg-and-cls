@@ -5,8 +5,9 @@ Pointnet classification baseline:
 		CUDA_VISIBLE_DEVICES=4 python train_classification.py --dataset ../data/shapenetcore_partanno_segmentation_benchmark_v0 --nepoch 200 
 		
 		Batch:32 num_points:2500 data_type:shapenet feature_trainformed:ture
-		
-	
+
+	9Øit [00:16, 5.Ø3it/s]
+    final accuracy 0.9718162839248434
 	
 	Trained_model path:/Users/xiaohu/Documents/Pycharm_server/152/pointnet.pytorch/utils/cls/cls_model.pth
 	
@@ -21,7 +22,9 @@ Pointnet segmentation baseline:
 		其他参数均为代码默认设置
 	Trained_model path: /home/wangyuhu/tmp/pycharm_project_995/pointnet.pytorch/utils/seg/seg_model.pth
 	
-	
+	22it [00:04, 5.Ø5it/s]
+    mlOU for class Chair: O. 7441568068800666
+    
 	wang yuhu 于 2020/2/7 下午9:43 修改
 
 Pointnet 代码解读：
