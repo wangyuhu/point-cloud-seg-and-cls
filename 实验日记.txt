@@ -1,0 +1,39 @@
+Pointnet classification baseline:
+	相关参数：
+		Project path: 152 /home/wangyuhu/tmp/pycharm_project_995/pointnet.pytorch
+		
+		CUDA_VISIBLE_DEVICES=4 python train_classification.py --dataset ../data/shapenetcore_partanno_segmentation_benchmark_v0 --nepoch 200 
+		
+		Batch:32 num_points:2500 data_type:shapenet feature_trainformed:ture
+		
+	
+	
+	Trained_model path:/Users/xiaohu/Documents/Pycharm_server/152/pointnet.pytorch/utils/cls/cls_model.pth
+	
+	wang yuhu 于 2020/2/7 下午2:43 修改
+
+Pointnet segmentation baseline:
+	相关参数：
+		Project path: 152 /home/wangyuhu/tmp/pycharm_project_995/pointnet.pytorch
+		
+		CUDA_VISIBLE_DEVICES=4 python train_segmentation.py --dataset ../data/shapenetcore_partanno_segmentation_benchmark_v0 --nepoch 20 
+		
+		其他参数均为代码默认设置
+	Trained_model path: /home/wangyuhu/tmp/pycharm_project_995/pointnet.pytorch/utils/seg/seg_model.pth
+	
+	
+	wang yuhu 于 2020/2/7 下午9:43 修改
+
+下阶段任务：
+	跑pointnet++;
+	看下一篇论文；
+	阅读pointnet和pointnet++的代码，做一些小实验。
+	wang yuhu 于 2020/2/8 下午1:30 修改
+	
+Pointnet 代码解读：
+	train_classification.py:
+	
+	dataset.py:
+		用于数据读取，
+	model.py
+	
