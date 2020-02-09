@@ -24,16 +24,15 @@ Pointnet segmentation baseline:
 	
 	wang yuhu 于 2020/2/7 下午9:43 修改
 
-下阶段任务：
-	跑pointnet++;
-	看下一篇论文；
-	阅读pointnet和pointnet++的代码，做一些小实验。
-	wang yuhu 于 2020/2/8 下午1:30 修改
-	
 Pointnet 代码解读：
 	train_classification.py:
-	
+
 	dataset.py:
 		用于数据读取，
 	model.py
+Pointnet++:
+    需要CUDA=9.0的环境，需要进行环境的重新配置，适当延后
 	
+下阶段任务：
+	看下一篇论文；
+	阅读pointnet代码，做一些小实验。
