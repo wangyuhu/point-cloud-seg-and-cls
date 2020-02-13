@@ -47,7 +47,10 @@ Pointnet 代码解读：
 
 Pointnet++:
     需要CUDA=9.0的环境，需要进行环境的重新配置，适当延后
-	
+
+SplatNet:
+    还需要详细阅读有关BCL方面的内容；
+
 下阶段任务：
 	看下一篇论文；
-	阅读pointnet代码，做一些小实验。
+	根据pointnet,做一些小实验。
