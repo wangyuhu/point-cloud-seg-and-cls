@@ -51,9 +51,9 @@ Pointnet++:
     需要CUDA=9.0的环境，需要进行环境的重新配置，适当延后
 
 SplatNet:
+    数据集：RueMonge2014，Shapenet
     还需要详细阅读有关BCL方面的内容；
 
 下阶段任务：
 	看下一篇论文；
 	根据pointnet,做一些小实验。
-	
