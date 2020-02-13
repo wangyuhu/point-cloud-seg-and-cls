@@ -1,4 +1,5 @@
 Pointnet classification baseline:
+    数据集：Shapenet，ModelNet40
 	相关参数：
 		Project path: 152 /home/wangyuhu/tmp/pycharm_project_995/pointnet.pytorch
 		
@@ -46,6 +47,7 @@ Pointnet 代码解读：
 	            stn3d用于point trans，stnkn用于feature tran;
 
 Pointnet++:
+    数据集：ModelNet40
     需要CUDA=9.0的环境，需要进行环境的重新配置，适当延后
 
 SplatNet:
@@ -54,3 +56,4 @@ SplatNet:
 下阶段任务：
 	看下一篇论文；
 	根据pointnet,做一些小实验。
+	
