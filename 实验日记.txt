@@ -50,10 +50,14 @@ Pointnet++:
     数据集：ModelNet40
     需要CUDA=9.0的环境，需要进行环境的重新配置，适当延后
 
-SplatNet:
-    数据集：RueMonge2014，Shapenet
+Splatnet:
+    数据集：RueMonge2014，shapenet
     还需要详细阅读有关BCL方面的内容；
 
+SGPN：
+    数据集：S3DIS、NYUV2和ShapeNet
+    想法：更改hinge loss ,
+         三维的IoU已经不再合适，可以创新一种新的判别标准
 下阶段任务：
 	看下一篇论文；
-	根据pointnet,做一些小实验。
+	想法：对于SGPN,可以尝试更改hinge loss,修改IoU的标准等；
